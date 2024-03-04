@@ -1,7 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 #KERNEL_SRC = "git://github.com/linux4ubon/linux-imx.git;protocol=https"
-KERNEL_SRC = "git://{TOPDIR}/../linux-imx;protocol=file"
+KERNEL_SRC = "git://${TOPDIR}/../linux-imx;protocol=file"
 SRCBRANCH = "imx_5.4.70_2.3.0"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
 SRCREV = "${AUTOREV}"
